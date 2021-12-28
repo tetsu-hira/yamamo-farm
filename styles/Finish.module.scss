@@ -1,0 +1,56 @@
+.Finish {
+  .foreword {
+    background-color: rgb(229 231 235);
+    padding-bottom: 0.5rem;
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      text-align: center;
+      margin-bottom: 0;
+      padding-top: 1rem;
+    }
+    p {
+      text-align: center;
+      font-size: 0.8rem;
+      margin-top: 10px;
+      font-weight: 100;
+    }
+  }
+  .image {
+    margin-top: 0;
+  }
+}
+
+/* Small (sm) */
+@media (min-width: 640px) {
+  .Finish {
+    .foreword {
+      background-color: rgb(229 231 235);
+      padding: 2rem auto 1.5rem;
+      h2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 0;
+      }
+      p {
+        text-align: center;
+        font-size: 0.8rem;
+        margin-top: 1rem;
+        font-weight: 100;
+      }
+    }
+    .image {
+      margin-top: 6rem;
+    }
+  }
+}
+
+/* Medium (md) */
+@media (min-width: 768px) { /* ... */ }
+
+/* Large (lg) */
+@media (min-width: 1024px) { /* ... */ }
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) { /* ... */ }
