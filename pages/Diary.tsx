@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useInView } from 'react-intersection-observer';
 import 'animate.css';
+import styles from '../styles/Diary.module.scss';
 
 
 export default function Diary() {
@@ -11,40 +12,40 @@ export default function Diary() {
   });
 
   return (
-    <>
-      <div className='my-24'>
-        <h2 className='text-3xl font-bold text-center'>
+    <div className={styles.Diary}>
+      <div className={styles.foreword}>
+        <h2>
           金賞までの道のり
         </h2>
-        <p className='text-lg font-thin mt-5 text-center'>
+        <p>
           生産管理は今まで唯一5S活動をしてきていない部署であり、
           <br />昨年度より長期的な最終目標として
           <br />金賞の獲得を掲げて活動を続けております。
         </p>
       </div>
-      <div className='flex w-10/12 m-auto mb-10'>
-        <div className='w-1/3 mx-4' ref={ref}>
+      <div className={styles.record}>
+        <div className={styles.column} ref={ref}>
           {inView && (
             <Image className='animate__animated animate__fadeInDown' src="/main1.jpg" width={540} height={360} alt="コラム1" />
           )}
-          <p className='text-xs mt-4'>2021/4/1</p>
-          <p className='text-xl mt-1'>銅賞の獲得</p>
+          <p className={styles.date}>2021/4/1</p>
+          <p className={styles.title}>銅賞の獲得</p>
         </div>
-        <div className='w-1/3 mx-4' ref={ref}>
+        <div className={styles.column} ref={ref}>
           {inView && (
             <Image className='animate__animated animate__fadeInDown' src="/main1.jpg" width={540} height={360} alt="コラム1" />
           )}
-          <p className='text-xs mt-4'>2022/4/1</p>
-          <p className='text-xl mt-1'>銀賞の獲得</p>
+          <p className={styles.date}>2022/4/1</p>
+          <p className={styles.title}>銀賞の獲得</p>
         </div>
-        <div className='w-1/3 mx-4' ref={ref}>
+        <div className={styles.column} ref={ref}>
           {inView && (
             <Image className='animate__animated animate__fadeInDown' src="/main1.jpg" width={540} height={360} alt="コラム1" />
           )}
-          <p className='text-xs mt-4'>2023/4/1</p>
-          <p className='text-xl mt-1'>金賞の獲得</p>
+          <p className={styles.date}>2023/4/1</p>
+          <p className={styles.title}>金賞の獲得</p>
         </div>
       </div>
-    </>
+    </div>
   )
 }

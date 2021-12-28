@@ -1,0 +1,83 @@
+.Diary {
+  .foreword {
+    margin: 2rem auto 2rem;
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      text-align: center;
+      margin-bottom: 0;
+    }
+    p {
+      text-align: center;
+      font-size: 0.8rem;
+      margin-top: 1rem;
+      font-weight: 100;
+    }
+  }
+  .record {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2.5rem;
+    .column {
+      width: 33.33333%;
+      margin: auto 7px;
+      .date {
+        font-size: 0.75rem;
+        margin-top: 0.25rem;
+      }
+      .image {
+        font-size: 1.25rem;
+        margin-top: 0.25rem;
+      }
+    }
+  }
+}
+
+/* Small (sm) */
+@media (min-width: 640px) {
+  .Diary {
+    .foreword {
+      margin: 3rem auto 0;
+      h2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 0;
+      }
+      p {
+        text-align: center;
+        font-size: 0.8rem;
+        margin-top: 1rem;
+        font-weight: 100;
+      }
+    }
+    .record {
+      display: flex;
+      width: 92%;
+      margin: auto;
+      margin-bottom: 2.5rem;
+      .column {
+        width: 33.33333%;
+        margin: auto 1rem;
+        .date {
+          font-size: 0.75rem;
+          margin-top: 1rem;
+        }
+        .image {
+          font-size: 1.25rem;
+          margin-top: 0.25rem;
+        }
+      }
+    }
+  }
+}
+
+/* Medium (md) */
+@media (min-width: 768px) { /* ... */ }
+
+/* Large (lg) */
+@media (min-width: 1024px) { /* ... */ }
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) { /* ... */ }
