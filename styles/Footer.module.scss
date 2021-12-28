@@ -1,0 +1,88 @@
+.Footer {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  color: #333333;
+  &Container {
+    display: flex;
+    margin: auto;
+    margin-bottom: 2.5rem;
+    &__title {
+      width: 40%;
+      padding-left: 2.5rem;
+      a {
+        font-size: 2.25rem;
+        font-weight: 600;
+      }
+      ul {
+        display: flex;
+        flex-basis: 25%;
+        padding-top: 2rem;
+        justify-content: flex-start;
+        li {
+          padding-left: 0.5rem;
+          padding-right: 0.5rem;
+          list-style: none;
+        }
+      }
+    }
+    &__link {
+      width: 20%;
+      p {
+        font-weight: 600;
+      }
+      ul {
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
+        padding-left: 0;
+        li {
+          margin-top: 0.5rem;
+          margin-bottom: 0.5rem;
+          font-weight: 300;
+          list-style: none;
+        }
+      }
+    }
+    &__record {
+      width: 20%;
+      p {
+        font-weight: 600;
+      }
+      ul {
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
+        padding-left: 0;
+        li {
+          margin-top: 0.5rem;
+          margin-bottom: 0.5rem;
+          font-weight: 300;
+          list-style: none;
+        }
+      }
+    }
+    &__poricy {
+      width: 20%;
+      p {
+        font-weight: 600;
+      }
+      ul {
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
+        padding-left: 0;
+        li {
+          margin-top: 0.5rem;
+          margin-bottom: 0.5rem;
+          font-weight: 300;
+          list-style: none;
+        }
+      }
+    }
+  }
+  &Bottom {
+    display: flex;
+    &__content {
+      text-align: center;
+      height: auto;
+      margin: auto;
+    }
+  }
+}

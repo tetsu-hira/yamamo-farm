@@ -1,0 +1,64 @@
+.Slider {
+  padding-top: 3rem;
+  &Image {
+    position: relative;
+    &__content {
+      position: absolute;
+      bottom: 4px;
+      margin: 0;
+      width: 100%;
+      background-color: rgba(0,0,0,0.5);
+      padding: 0 5px;
+      .big {
+        color: white;
+        font-weight: bold;
+        font-size: 1rem;
+        line-height: 0.5;
+      }
+      .small {
+        color: white;
+        font-size: 0.875rem;
+        line-height: 0.5;
+      }
+    }
+  }
+}
+
+/* Small (sm) */
+@media (min-width: 640px) { /* ... */ }
+
+/* Medium (md) */
+@media (min-width: 768px) {
+  .Slider {
+    &Image {
+      &__content {
+        .big {
+          font-size: 1.5rem;
+        }
+        .small {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+  .Slider {
+    &Image {
+      &__content {
+        .big {
+          font-size: 1.875rem;
+          line-height: 0.5
+        }
+        .small {
+          font-size: 1.25rem;
+        }
+      }
+    }
+  }
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) { /* ... */ }

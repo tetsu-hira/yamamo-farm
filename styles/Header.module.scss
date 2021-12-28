@@ -1,0 +1,82 @@
+.Header {
+  position: fixed;
+  width: 100%;
+  height: 3rem;
+  color: #333333;
+  background-color: white;
+  z-index: 999;
+  &Container {
+    height: 100%;
+    position: relative;
+    &__title {
+      display: inline-block;
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      margin: auto;
+      flex-basis: 33.333333%;
+      &Logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 2;
+      }
+    }
+    &__list {
+      display: none;
+      flex-basis: 33.333333%;
+      justify-content: center;
+      margin: auto;
+      li {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        list-style: none;
+        a {
+          font-weight: 300;
+          padding-left: 0.5rem;
+          padding-right: 0.5rem;
+        }
+      }
+    }
+    &__icon {
+      display: flex;
+      flex-basis: 33.333333%;
+      justify-content: flex-end;
+      margin: auto;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      li {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        display: none;
+      }
+    }
+  }
+}
+
+@media (min-width: 640px) {
+  .Header {
+    height: 9rem;
+    &Container {
+      display: flex;
+      &__title {
+        text-align: left;
+        padding-left: 2.5rem;
+        &Logo {
+          font-size: 2.25rem;
+          line-height: 4;
+        }
+      }
+      &__list {
+        display: flex;
+        li {
+          display: block;
+        }
+      }
+      &__icon {
+        li {
+          display: block;
+        }
+      }
+    }
+  }
+}

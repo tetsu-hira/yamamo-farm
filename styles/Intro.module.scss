@@ -1,0 +1,92 @@
+.Intro {
+  display: flex;
+  margin: 1rem auto;
+  justify-content: center;
+  width: 90%;
+  .image {
+    width: 50%;
+    padding-top: 1rem;
+  }
+  .content {
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+    width: 50%;
+    margin: auto;
+    .sub {
+      font-size: 0.75rem;
+      font-weight: 100;
+      margin: 0;
+    }
+    .main {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin: auto;
+    }
+    .expo {
+      font-size: 0.75rem;
+      font-weight: 100;
+      margin-top: 0;
+    }
+    .button {
+      background-color: rgb(248 113 113);
+      font-size: 0.75rem;
+      color: white;
+      display: block;
+      margin: auto auto auto 1rem;
+      width: 7rem;
+      height: 2rem;
+      text-align: center;
+      line-height: 2.5;
+      box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    }
+  }
+}
+
+/* Small (sm) */
+@media (min-width: 640px) {
+  .Intro {
+    .content {
+      padding-left: 8rem;
+      padding-top: 2.5rem;
+      .sub {
+        font-size: 1.125rem;
+        font-weight: 100;
+      }
+      .main {
+        font-size: 1.875rem;
+        font-weight: 600;
+        margin: 0.25rem auto;
+      }
+      .expo {
+        font-size: 1.125rem;
+        font-weight: 100;
+        margin-top: 1.25rem;
+      }
+      .button {
+        background-color: rgb(248 113 113);
+        color: white;
+        display: block;
+        margin: 1.5rem auto;
+        width: 10rem;
+        height: 2.5rem;
+        text-align: center;
+        line-height: 2.5;
+        box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+        transition: 0.5s;
+        &:hover {
+          color: rgb(248 113 113);
+          background-color: white;
+        }
+      }
+    }
+  }
+}
+
+/* Medium (md) */
+@media (min-width: 768px) { /* ... */ }
+
+/* Large (lg) */
+@media (min-width: 1024px) { /* ... */ }
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) { /* ... */ }
