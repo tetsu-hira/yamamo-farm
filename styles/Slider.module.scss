@@ -4,7 +4,7 @@
     position: relative;
     &__content {
       position: absolute;
-      bottom: 4px;
+      bottom: 0.3rem;
       margin: 0;
       width: 100%;
       background-color: rgba(0,0,0,0.5);
@@ -12,12 +12,12 @@
       .big {
         color: white;
         font-weight: bold;
-        font-size: 1rem;
+        font-size: 1.6rem;
         line-height: 0.5;
       }
       .small {
         color: white;
-        font-size: 0.875rem;
+        font-size: 1.2rem;
         line-height: 0.5;
       }
     }

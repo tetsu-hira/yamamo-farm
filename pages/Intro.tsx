@@ -23,16 +23,13 @@ export default function Intro() {
         </Link>
       </div>
       <div className={styles.content}>
-        <p className={styles.sub}>生産管理の5S活動について</p>
+        <p className={styles.sub}>生産管理の</p>
         <h2 className={styles.main}>5S活動の歩み</h2>
         <p className={styles.expo}>
           ２年前より活動を開始
-          <br />昨年は順調に活動を進め、
-          <br />今年の３月には銅賞を獲得
+          <br />順調に活動を進め、
+          <br />今年３月に銅賞を獲得
         </p>
-        <Link href="/">
-          <a className={styles.button}>今までの活動</a>
-        </Link>
       </div>
     </div>
   )

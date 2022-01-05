@@ -31,6 +31,7 @@ export default function Home() {
             <div>
               <Slider />
               <Intro />
+              <Band />
               <Main />
               <Band />
               <Diary />

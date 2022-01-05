@@ -1,7 +1,7 @@
 .Header {
   position: fixed;
   width: 100%;
-  height: 3rem;
+  height: 5rem;
   color: #333333;
   background-color: white;
   z-index: 999;
@@ -16,9 +16,9 @@
       margin: auto;
       flex-basis: 33.333333%;
       &Logo {
-        font-size: 1.5rem;
+        font-size: 3rem;
         font-weight: bold;
-        line-height: 2;
+        line-height: 5rem;
       }
     }
     &__list {
