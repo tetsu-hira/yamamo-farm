@@ -17,7 +17,7 @@ export default function Main() {
         <h2>今年度目標：銀賞の獲得</h2>
         <p className={styles.big}>
           獲得に向けてまずは現在の
-          <br />整頓状況を維持していくことから
+          <br />整頓状況を維持することが条件
         </p>
         <p className={styles.small}>
           その上でさらに細かな箇所を改善していくことで
@@ -40,12 +40,16 @@ export default function Main() {
         <div className={styles.group}>
           <div className={styles.contentRight}>
             <h2>年に一度のPC清掃</h2>
-            <p>昨年より年に一度の大掃除と別に日を設け、生産管理室で使っているデスクトップPCの清掃を行っております。</p>
+            <p>昨年より年に一度の大掃除と別に予定日を設けて、生産管理室で使っているデスクトップPCの清掃を行うことで仕事道具の維持管理を行っております。</p>
           </div>
           <div className={styles.image} ref={ref}>
             {inView && (
               <Image className='animate__animated animate__fadeInDown' src="/main2.jpg" width={540} height={360} alt="メイン画像1" />
             )}
+          </div>
+          <div className={styles.contentLeft}>
+            <h2>年に一度のPC清掃</h2>
+            <p>昨年より年に一度の大掃除と別に予定日を設けて、生産管理室で使っているデスクトップPCの清掃を行うことで仕事道具の維持管理を行っております。</p>
           </div>
         </div>
         <div className={styles.group}>
@@ -56,7 +60,7 @@ export default function Main() {
           </div>
           <div className={styles.contentLeft}>
             <h2>安全にも配慮</h2>
-            <p>日々の整理整頓だけでなく、地震時にPCが倒れてこないようにするなどの安全対策も5S活動の一環として行います。</p>
+            <p>日々の整理整頓や清掃だけでなく、地震時にPCが倒れてこないようにするなどの安全対策も5S活動の一環として行うことで、より良い職場を作ります。</p>
           </div>
         </div>
       </div>

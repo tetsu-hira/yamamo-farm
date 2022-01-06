@@ -1,8 +1,9 @@
 .Main {
+  margin-bottom: 4rem;
   .foreword {
     margin: 3rem auto 0;
     h2 {
-      font-size: 1.5rem;
+      font-size: 2.4rem;
       font-weight: 600;
       text-align: center;
       margin-bottom: 0;
@@ -12,40 +13,46 @@
     }
     .big {
       color: red;
-      font-size: 1rem;
+      font-size: 1.6rem;
       font-weight: 600;
       line-height: 1.5;
-      margin-top: 0.5rem;
     }
     .small {
-      font-size: 0.8rem;
+      font-size: 1.2rem;
       margin-top: 1rem;
       font-weight: 100;
     }
   }
   .intro{
-    width: 90%;
+    width: 85%;
     margin: auto;
     .group {
       margin-top: 3rem;
-      display: flex;
+      display: block;
+      background-color: #9f66;
+      padding-top: 2.4rem;
+      padding-bottom: 1.2rem;
+      box-shadow: 10px 10px #ccc;
+      -moz-box-shadow: 10px 10px #ccc;
+      -webkit-box-shadow: 10px 10px #ccc;
+      -o-box-shadow: 10px 10px #ccc;
       .image {
-        width: 50%;
+        width: 80%;
         margin: auto;
       }
       .content {
         &Left {
           // padding-top: 5rem;
-          width: 50%;
-          padding-left: 1rem;
+          width: 95%;
           margin: auto;
           h2 {
-            font-size: 1rem;
+            font-size: 1.6rem;
             margin: auto;
             text-align: center;
+            margin: 0.5rem auto;
           }
           p {
-            font-size: 0.75rem;
+            font-size: 1.6rem;
             font-weight: 100;
             text-align: center;
             margin: auto;
@@ -53,6 +60,7 @@
         }
         &Right {
           // padding-top: 5rem;
+          display: none;
           width: 50%;
           padding-right: 1rem;
           margin: auto;

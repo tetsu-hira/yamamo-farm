@@ -5,6 +5,7 @@ import Main from './Main'
 import Band from './Band'
 import Diary from './Diary'
 import Finish from './Finish'
+import News from './News'
 import { useInView } from 'react-intersection-observer';
 import 'animate.css';
 
@@ -30,6 +31,7 @@ export default function Home() {
           {inView && (
             <div>
               <Slider />
+              <News />
               <Intro />
               <Band />
               <Main />

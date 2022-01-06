@@ -5,7 +5,7 @@ export default function Band() {
   return (
     <div className={styles.Band}>
       <Link href="/">
-        <a className={styles.button}>今までの活動</a>
+        <a className={styles.button}>今までの活動を見る</a>
       </Link>
     </div>
   )
