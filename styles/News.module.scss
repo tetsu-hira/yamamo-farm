@@ -10,12 +10,21 @@
   }
   &Content {
     background-color: #fef7f6;
-    height: 5rem;
     padding: 3.2rem 2.4rem;
     .date {
       color: #ffaab2;
       font-weight: 600;
       font-size: 1.6rem;
+    }
+    .info {
+      font-size: 1.4rem;
+      margin-top: 0.4rem;
+      margin-bottom: 0.8rem;
+    }
+    .link {
+      margin-top: 2.8rem;
+      display: inline-block;
+      font-size: 1.2rem;
     }
   }
 }
