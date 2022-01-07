@@ -47,7 +47,7 @@ export default function Main() {
               <Image className='animate__animated animate__fadeInDown' src="/main2.jpg" width={540} height={360} alt="メイン画像1" />
             )}
           </div>
-          <div className={styles.contentLeft}>
+          <div className={styles.contentLeft2}>
             <h2>年に一度のPC清掃</h2>
             <p>昨年より年に一度の大掃除と別に予定日を設けて、生産管理室で使っているデスクトップPCの清掃を行うことで仕事道具の維持管理を行っております。</p>
           </div>

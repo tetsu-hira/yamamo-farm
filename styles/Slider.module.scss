@@ -25,40 +25,26 @@
 }
 
 /* Small (sm) */
-@media (min-width: 640px) { /* ... */ }
+@media (min-width: 640px) {
+  .Slider {
+    &Image {
+      &__content {
+        .big {
+          font-size: 2.8rem;
+        }
+        .small {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+}
 
 /* Medium (md) */
-@media (min-width: 768px) {
-  .Slider {
-    &Image {
-      &__content {
-        .big {
-          font-size: 1.5rem;
-        }
-        .small {
-          font-size: 1rem;
-        }
-      }
-    }
-  }
-}
+@media (min-width: 768px) { /* ... */ }
 
 /* Large (lg) */
-@media (min-width: 1024px) {
-  .Slider {
-    &Image {
-      &__content {
-        .big {
-          font-size: 1.875rem;
-          line-height: 0.5
-        }
-        .small {
-          font-size: 1.25rem;
-        }
-      }
-    }
-  }
-}
+@media (min-width: 1024px) { /* ... */ }
 
 /* Extra Large (xl) */
 @media (min-width: 1280px) { /* ... */ }

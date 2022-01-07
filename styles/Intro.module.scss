@@ -50,20 +50,29 @@
 /* Small (sm) */
 @media (min-width: 640px) {
   .Intro {
+    display: flex;
+    width: 880px;
+    margin: 4rem auto;
+    justify-content: center;
+    .image {
+      width: 60%;
+      text-align: center;
+    }
     .content {
-      padding-left: 8rem;
-      padding-top: 2.5rem;
+      width: 40%;
+      // padding-left: 8rem;
+      // padding-top: 2.5rem;
       .sub {
-        font-size: 1.125rem;
+        font-size: 2.4rem;
         font-weight: 100;
       }
       .main {
-        font-size: 1.875rem;
+        font-size: 4rem;
         font-weight: 600;
         margin: 0.25rem auto;
       }
       .expo {
-        font-size: 1.125rem;
+        font-size: 2rem;
         font-weight: 100;
         margin-top: 1.25rem;
       }

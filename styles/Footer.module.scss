@@ -119,18 +119,19 @@
 /* Small (sm) */
 @media (min-width: 640px) {
   .Footer {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin: 5rem auto;
     color: #333333;
+    width: auto;
     &Container {
       display: flex;
       margin: auto;
       margin-bottom: 2.5rem;
       &__title {
-        width: 40%;
+        width: 35%;
         padding-left: 2.5rem;
+        display: block;
         a {
-          font-size: 2.25rem;
+          font-size: 4rem;
           font-weight: 600;
         }
         ul {
@@ -146,7 +147,8 @@
         }
       }
       &__link {
-        width: 20%;
+        width: 27rem;
+        margin: 0 1rem auto;
         p {
           font-weight: 600;
         }
@@ -163,7 +165,8 @@
         }
       }
       &__record {
-        width: 20%;
+        width: 27rem;
+        margin: 0 1rem auto;
         p {
           font-weight: 600;
         }
@@ -180,7 +183,8 @@
         }
       }
       &__poricy {
-        width: 20%;
+        width: 27rem;
+        margin: 0 1rem auto;
         p {
           font-weight: 600;
         }

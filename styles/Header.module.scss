@@ -56,20 +56,22 @@
 @media (min-width: 640px) {
   .Header {
     height: 9rem;
+    min-width: 780px;
     &Container {
       display: flex;
       &__title {
         text-align: left;
         padding-left: 2.5rem;
         &Logo {
-          font-size: 2.25rem;
-          line-height: 4;
+          font-size: 3.6rem;
+          line-height: 9rem;
         }
       }
       &__list {
         display: flex;
         li {
           display: block;
+          font-size: 1.6rem;
         }
       }
       &__icon {
